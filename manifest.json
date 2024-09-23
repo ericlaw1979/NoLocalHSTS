@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "No Local HSTS",
+  "short_name": "NoLocalHSTS",
+  "description": "Disable HSTS on all localhost responses",
+  "version": "1.0.0.0",
+  "author": "Eric Lawrence (@ericlaw)",
+  "minimum_chrome_version": "120",
+  "action": {},
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_localhost",
+      "enabled": true,
+      "path": "localhost.json"
+    }]
+  },
+  "host_permissions": [
+    "https://localhost/*"
+  ]
+}

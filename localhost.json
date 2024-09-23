@@ -1,0 +1,16 @@
+[{
+    "id" : 1,
+    "priority": 1,
+    "action" : { 
+        "type" : "modifyHeaders",
+        "responseHeaders": [{
+                "header": "Strict-Transport-Security",
+                "operation": "set",
+                "value": "max-age=0"
+            }
+        ]
+    },
+    "condition" : {
+      "urlFilter" : "https://localhost/*"
+    }
+}]
