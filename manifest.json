@@ -3,7 +3,7 @@
   "name": "No Local HSTS",
   "short_name": "NoLocalHSTS",
   "description": "Disable HSTS on all localhost responses",
-  "version": "1.0.0.0",
+  "version": "1.0.0.1",
   "author": "Eric Lawrence (@ericlaw)",
   "minimum_chrome_version": "120",
   "action": {},

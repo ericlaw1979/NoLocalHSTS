@@ -6,11 +6,11 @@
         "responseHeaders": [{
                 "header": "Strict-Transport-Security",
                 "operation": "set",
-                "value": "max-age=0"
+                "value": "max-age=0; override_By_NoLocalHSTS_Extension"
             }
         ]
     },
     "condition" : {
-      "urlFilter" : "https://localhost/*"
+      "urlFilter" : "https://localhost*"
     }
 }]
