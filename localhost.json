@@ -11,6 +11,6 @@
         ]
     },
     "condition" : {
-      "urlFilter" : "https://localhost*"
+      "urlFilter" : "|https://localhost*"
     }
 }]
