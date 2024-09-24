@@ -1,4 +1,4 @@
-A simple extension that disables HSTS for localhost on every response.
+A simple extension that disables [HSTS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) for localhost on every response.
 
 This helps prevent unexpected use of HTTPS for developers building a
 mix of HTTP and HTTPS services.
