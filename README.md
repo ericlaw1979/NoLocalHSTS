@@ -1,3 +1,5 @@
+**Note**: This extension is not needed in Chrome 132+, because we've [updated Chromium](a5e738f2321ce1a2f3cdb34fa70dc76b84af9824) to ignore HSTS on `localhost` responses.
+
 A simple extension that disables [HSTS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) for localhost on every response.
 
 You can install from the [Chrome Web Store](https://chromewebstore.google.com/detail/no-local-hsts/cmgiimeeiiafogicmaimbgmfckmfimfd).
